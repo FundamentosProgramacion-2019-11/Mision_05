@@ -133,6 +133,7 @@ def main():
     while opcion!= 0:
         if opcion < 0 or opcion > 7:
             print("\nNo es una opción")
+            input("Pique INTRO para continuar")
             print("\nSeleccione la opción qué quiera hacer. \n"
                   "1. Dibujar cuadros y círculos \n"
                   "2. Dibujar estrella \n"
@@ -145,7 +146,7 @@ def main():
 
         elif opcion >= 1 or opcion <= 3:
             dibujar(opcion)
-            input("Intro para continuar")
+            input("Pique INTRO para continuar")
             print("\nSeleccione la opción qué quiera hacer. \n"
                   "1. Dibujar cuadros y círculos \n"
                   "2. Dibujar estrella \n"
@@ -162,7 +163,7 @@ def main():
                 print("Número NO válido")
             else:
                 print("\nEl aproximado de PI es:", aproximarPI(n))
-                input("Intro para continuar")
+                input("Pique INTRO para continuar")
                 print("\nSeleccione la opción qué quiera hacer. \n"
                       "1. Dibujar cuadros y círculos \n"
                       "2. Dibujar estrella \n"
@@ -175,6 +176,7 @@ def main():
 
         elif opcion == 5:
             numerosDivisibles()
+            input("Pique INTRO para continuar")
             print("\nSeleccione la opción qué quiera hacer. \n"
                   "1. Dibujar cuadros y círculos \n"
                   "2. Dibujar estrella \n"
@@ -187,6 +189,7 @@ def main():
 
         elif opcion == 6:
             imprimirOperaciones()
+            input("Pique INTRO para continuar")
             print("\nSeleccione la opción qué quiera hacer. \n"
                   "1. Dibujar cuadros y círculos \n"
                   "2. Dibujar estrella \n"
@@ -196,7 +199,6 @@ def main():
                   "6. Imprimir operaciones \n"
                   "7. Salir \n")
             opcion = int(input("¿Qué quiere hacer? "))
-
 
     print("\nFIN")
 
