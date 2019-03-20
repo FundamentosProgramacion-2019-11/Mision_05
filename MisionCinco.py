@@ -161,7 +161,7 @@ def main():
             print("PI es igual a", pi)
         elif opciones == 6:
             divisibles = calcularDivisibles()
-            print("Hay %2d números divisibles entre 37" % divisibles)
+            print("Hay %3d números divisibles entre 37" % divisibles)
         elif opciones == 7:
             calcularOperacion()
         else:
