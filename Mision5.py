@@ -286,6 +286,7 @@ def main():
         if r==1:
             dibujarCuadrosYcirculos()
             r = int(input("¿Qué desea hacer?: "))
+
         if r==2:
             dibujarParabola()
             r = int(input("¿Qué desea hacer?: "))
@@ -312,9 +313,7 @@ def main():
             6. Imprimir pirámides de números
             0. Salir""")
             r = int(input("¿Qué desea hacer?: "))
-        else:
-            print("El numero no se encuentra en el menu.Intente de nuevo")
-            r = int(input("¿Qué desea hacer?: "))
+
 
 
 main()
